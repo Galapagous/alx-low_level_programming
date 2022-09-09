@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * Description: printing a file using the put(abstraction) function.
  * main - Program entry point.
+ * Description: printing a file using the put(abstraction) function.
+ * Return: 0 or nothing.
   */
 int main(void)
 	{

@@ -14,13 +14,13 @@ char i;
 char j = '0';
 	while (j <= '9')
 	{
-		putchar(j);								
-	d++;
-}
+		putchar(j);
+		j++;
+	}
 	for (i = 'a'; i <= 'f'; i++)
-{
+	{
 	putchar(i);
 }
 	putchar('\n');
-return (0);
-}
+	return (0);
+	}

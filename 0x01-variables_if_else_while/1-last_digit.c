@@ -1,38 +1,57 @@
-#include <stdlib.h>
 #include <stdio.h>
+
+#include <stdlib.h>
+
 #include <time.h>
 
 /**
- * main - Program entry point
- * Description: program to print status of random number against 5.
- * Return: 0/This program returns nothing.
- */
+ *
+ *  * main - Entry point
+ *
+ *   * Description: checks on the last digit of the assigned var
+ *
+ *    * Return: Always 0 (success)
+ *
+ *     */
 
 int main(void)
 
 {
 
-		int n, a;
+		int n, m;
 
 
 
 			srand(time(0));
 
 				n = rand() - RAND_MAX / 2;
-				a = n % 10;
 
-if (a > 5)
-{
-	printf("Last digit of %d is %d and is greater than 5\n", n, a);
-}
-else if
-(a < 6 && a != 0);
-{
-	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, a);
-}
-else
-{
-	printf("Last digit of %d is %d and is 0\n", n, a);
-}
-return (0);
+					m = n % 10;
+
+						if (m > 5)
+
+								{
+
+											printf("Last digit of %d is %d and is greater than 5\n", n, m);
+
+												}
+
+							else if (m < 6 && m != 0)
+
+									{
+
+												printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
+
+													}
+
+								else
+
+										{
+
+													printf("Last digit of %d is %d and is 0\n", n, m);
+
+														}
+
+									return (0);
+
 }

@@ -1,0 +1,37 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+
+/**
+ * main - This is the program entry point.
+ * Description: Yi determine if number is positive, negative or zero.
+  * Return:0/ program is not returning anything.
+ */
+
+int main(void)
+
+{
+
+		int n;
+
+
+
+			srand(time(0));
+
+				n = rand() - RAND_MAX / 2;
+
+if (n > 0)
+{
+	printf("%s", "is positive\n");
+}
+else if (n < 0)
+{
+	printf("%s", "is negative\n");
+}
+else
+{
+	printf("%s", "is zero\n");
+}
+return (0);
+
+}

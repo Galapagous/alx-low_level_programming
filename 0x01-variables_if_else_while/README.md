@@ -10,3 +10,4 @@
 9. 9-print all posssible combination of a sigle digit number.
 100. 100-print_comb3: Print all possible combination of two digit numbers.
 101. Print all posibble combination of three digit numbers.
+102. Print all possible combination of two digit number from 0-99.

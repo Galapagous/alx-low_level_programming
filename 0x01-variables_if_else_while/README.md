@@ -8,3 +8,4 @@
 7. 7-Print all lower case alphabets in reverse order.
 8. 8-Print all the number of base 16 in lower case and followed by a new line.
 9. 9-print all posssible combination of a sigle digit number.
+100. 100-print_comb3: Print all possible combination of two digit numbers.

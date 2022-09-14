@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - This is the program entry point.
+ * print_alphabet - This is the program entry point.
  * Description: Program to print all alphabets in lower case.
  * Return: 0/Nothing
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int i;
 
@@ -15,5 +15,4 @@ int main(void)
 		_putchar(i);
 	}
 	_putchar('\n');
-	return (0);
 }

@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _abs(int)->program entry point.
+ * _abs -> program entry point.
  * Description: program to return the absolute value.
  * @c: parameter integer.
- * Return- 0/nothing.
+ * Return: the absolute value of an integer.
  */
 
 int _abs(int c)

@@ -9,7 +9,7 @@ int main(void)
 	int x = 0;
 	long j = 1, k = 2;
 
-	while (x == 0)
+	while (x < 0)
 	{
 		if (x == 0)
 			printf("%ld", j);

@@ -8,6 +8,7 @@
 int main(void)
 {
 	int state;
+
 	state = _isupper(c);
-	return(state);
+	return (state);
 }

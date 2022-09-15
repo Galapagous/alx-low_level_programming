@@ -26,7 +26,7 @@ void jack_bauer(void)
 				_putchar('0');
 				_putchar(minutes + '0');
 			}
-			else if (minutes > 10)
+			else if (minutes >= 10)
 			{
 				_putchar(':');
 				_putchar((minutes / 10) + '0');

@@ -4,7 +4,7 @@
  * Description: program to print the nine times table.
  * return: void.
  */
-void time_table(void)
+void times_table(void)
 {
 	int row, column, product, tens, ones;
 

@@ -12,6 +12,7 @@ int main(void)
 	while (z < 4000000)
 	{
 		z = x + y;
+		x = y;
 		y = z;
 		if (z % 2 == 0)
 		{

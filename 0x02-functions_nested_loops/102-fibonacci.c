@@ -6,19 +6,23 @@
  */
 int main(void)
 {
-	int x = 0, y = 1, z = 0;
-	int total = 0;
+	int x = 0;
+	long j = 1, k = 2;
 
-	while (z < 4000000)
+	while (x == 0)
 	{
-		z = x + y;
-		x = y;
-		y = z;
-		if (z % 2 == 0)
+		if (x == 0)
+			printf("%ld", j);
+		else if (x == 1)
+			printf(", %ld", k);
+		else
 		{
-			total += z;
+			k += j;
+			j = k - j;
+			printf(", %ld", k);
 		}
+		x++;
 	}
-	printf("%i\n", total);
+	printf("\n");
 	return (0);
 }

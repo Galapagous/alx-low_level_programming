@@ -5,7 +5,7 @@
  * Description: Program to print last digit of an integer.
  * Return: the last digit of an integer.
  */
-int _print_last_digit(int c)
+int print_last_digit(int c)
 {
 	if (c < 0)
 	{

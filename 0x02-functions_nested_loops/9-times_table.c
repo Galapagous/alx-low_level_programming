@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * time_table - program entry point.
+ * times_table - program entry point.
  * Description: program to print the nine times table.
  * return: void.
  */

@@ -2,13 +2,19 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- * Return: 0/nothing.
+ * _isupper - function name.
+ * @c:  parameter to be check.
+ * Description: program to check for upper case.
+ * Return: 0 or 1 depending on input.
  */
-int main(void)
+int _isupper(int c)
 {
-	int state;
-
-	state = _isupper(c);
-	return (state);
+	if (c > 64 || c < 100)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }

@@ -13,19 +13,20 @@ void print_diagonal(int i)
 
 	if (i > 0)
 	{
-		for (lenght = 0; lenght < i; length++)
+		for (length = 0; length < i; length++)
 		{
 			for (space = 0; space < length; space++)
 			{
 				putchar(' ');
 			}
-			putchar('//');
-			if (length == (i - 1)
-					{
+			putchar('\\');
+
+			if (length == (i - 1))
+				{
 					continue;
-					}
+				}
 					putchar('\n');
-					}
-					}
+				}
+		}
 					putchar('\n');
-					}
+	}

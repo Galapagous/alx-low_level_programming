@@ -3,7 +3,7 @@
 
 /**
  * print_square - print # in square for.
- * @size - parameter indicating the width of square.
+ * @size: parameter indicating the size of square.
  * Return: 0/nothing.
  */
 

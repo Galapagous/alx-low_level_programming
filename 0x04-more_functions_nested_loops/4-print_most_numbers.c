@@ -8,9 +8,15 @@
  */
 void print_most_numbers(void)
 {
-	for (int i = 48; i <= 57; i++)
+	int n;
+
+	for (n = 48; n < 58; n++)
 	{
-		putchar(i);
-		putchar('\n');
+		if ((n == 50) || (n == 52))
+		{
+			continue;
+		}
+		putchar(n);
 	}
+	putchar(10);
 }

@@ -5,7 +5,7 @@
  * _strlen - program to count the length of a string.
  * Description : Take a string as an argument and return length of string.
  * @s : parameter to be evaluated.
- * Return :int length of string.
+ * Return: int length of string.
  *
  **/
 int _strlen(char *s)

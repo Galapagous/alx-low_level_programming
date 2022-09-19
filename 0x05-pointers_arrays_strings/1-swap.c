@@ -1,20 +1,19 @@
 #include "main.h"
 
 /**
- * swap_int : function entry point.
+ * swap_int - function entry point.
  * Description : function to swap two integers values using pointers.
- * @a, b - pointer parameters to be swap.
+ * @a : first parameters to be swap.
+ * @b : second parameter to be swap.
  * @ holder - a temporary storage of integer before use.
- * @c - holder's pointer memory.
  *
- * */
+ **/
 
-void swap_int(int a*, int b*)
+void swap_int(int *a, int *b)
 {
 	int holder;
-	int *c = holder;
 
 	holder = *a;
-	a* = b*;
-	*b = *c;
+	*a = *b;
+	*b = *&holder;
 }

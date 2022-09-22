@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strncpy - function to copy certain number of character.
@@ -11,11 +12,16 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i;
+	int i, lenDest;
+
+	lenDest = strlen(dest);
 
 	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
-		dest[i] = src[i];
+		if (n < lenDest)
+			dest[i] = src[i];
 	}
+	for ( ; i < n; i++)
+		dest[i] = '\0';
 	return (dest);
 }

@@ -1,6 +1,8 @@
-#ifndef _main_h_
-#define _main_h_
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <string.h>
+
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 char *strncpy(char *dest, char *src, int n);

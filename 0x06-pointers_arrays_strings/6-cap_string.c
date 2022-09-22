@@ -19,11 +19,11 @@ char *cap_string(char *s)
 		{
 			s[0] = s[0] - 32;
 		}
-		for (j = 0; separator[j] != '\0';
+		for (j = 0; separator[j] != '\0';)
 				{
 				if (s[i] == separator[j] && s[i + 1] >= 97 && s[i + 1] <= 122)
 				{
-				s[i = 1] = s[i + 1] - 32;
+				s[i + 1] = s[i + 1] - 32;
 				}
 				}
 	}

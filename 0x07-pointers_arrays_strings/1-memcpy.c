@@ -3,8 +3,6 @@
 /**
  * _memcpy - copy string.
  * Description : function to copy a certain num of character form src to dest.
- * @n : number of character to copy.
- * @i - looping through string.
  * @dest : destination to be copied to.
  * @src : source ofstring to copy.
  * Return: pointer to destination.

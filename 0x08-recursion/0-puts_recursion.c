@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _puts_recursion - function to print to the terminal using put.
@@ -8,4 +9,5 @@
 
 void _puts_recursion(char *s)
 {
-	_puts(s); }
+	puts(s);
+}

@@ -19,6 +19,7 @@ int is_prime_number(int n)
  * using recursion.
  * @n: The value to perfor check on.
  * @i: A counter factor.
+ * Return: return 1 if prime, 0 if not.
  */
 int prime_number(int n, int i)
 {

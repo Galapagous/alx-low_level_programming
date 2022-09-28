@@ -22,9 +22,9 @@ int is_prime_number(int n)
  */
 int prime_number(int n, int i)
 {
-	if (i * i > n)
-		return (-1);
-	if (i * i == n)
-		return (i);
-	return (sqrt_function(n, i + 1));
+	if (i == 1)
+		return (1);
+	if (n % i == 0 && i > 0)
+		return (0);
+	return (prime_number(n, i - 1));
 }

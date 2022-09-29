@@ -36,7 +36,7 @@ int pali(char *s, int i)
 }
 
 /**
- * is _palindrome - palindrome checker
+ * is_palindrome - palindrome checker
  * @s: pointer to string
  * Return: recursion.
  */
